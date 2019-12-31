@@ -1,12 +1,24 @@
-import React from 'react';
-import './Styles/App.css';
+import React from "react";
+import "./Styles/App.css";
+import SportInfoList from "./SportInfoList";
+import sportdata from "./data/SportRules.js";
 
-function App () {
-        return (
-            <div>
-                <h1> Hello, World </h1>
-            </div>
-        )
+class App extends React.Component {
+  render() {
+    const listData = sportdata.map(data => (
+      <SportInfoList
+        key={data.id}
+        name={data.name}
+        shortDescription={data.shortDescription}
+      />
+    ));
+    return (
+      <div className={"App"}>
+        <h1> REFREEZ </h1>
+        {listData}
+      </div>
+    );
+  }
 }
 
-export default App
+export default App;
