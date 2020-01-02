@@ -25,3 +25,23 @@ body {
   border-radius: 10px;
   box-shadow: 5px 5px 13px 0px rgba(166, 170, 169, 0.18);
 }
+
+/* .btn-default {
+  color: #935c21;
+  border: 1px solid #935c21;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 150;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.btn-default:focus, .btn-default:hover {
+  color: #fbe39d;
+  border: 1px solid #1d1104;
+  outline: none;
+  background-color: #1d1104;
+} */
