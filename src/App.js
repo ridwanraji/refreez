@@ -14,7 +14,7 @@ class App extends React.Component {
     ));
     return (
       <div className={"App"}>
-        <h1> REFREEZ </h1>
+        <h1 className={"title"}> REFREEZ </h1>
         {listData}
       </div>
     );
