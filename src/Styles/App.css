@@ -26,6 +26,23 @@ body {
   box-shadow: 5px 5px 13px 0px rgba(166, 170, 169, 0.18);
 }
 
+.Nav {
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: orangered;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  align-content: center;
+  list-style: none;
+}
+
 /* .btn-default {
   color: #935c21;
   border: 1px solid #935c21;
